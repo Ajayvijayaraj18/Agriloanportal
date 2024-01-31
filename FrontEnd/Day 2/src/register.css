@@ -1,0 +1,48 @@
+.register-container {
+  padding: 20px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-container label {
+  margin-bottom: 5px;
+}
+
+.register-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.register-container button {
+  background-color: #000000;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px 150px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.register-container button:hover {
+  background-color: #eee71c;
+}
+.abg{
+  background-image: url('https://images.pexels.com/photos/2600222/pexels-photo-2600222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
