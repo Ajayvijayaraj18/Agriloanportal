@@ -1,0 +1,125 @@
+/* Homepage.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  homediv1{
+    height: 100vh;
+  }
+
+  header {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1 {
+    margin: 0;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  
+  section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #28a32f;
+  }
+  
+  p {
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  Link {
+    text-decoration: none;
+    color: #28a32f;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  Link:hover {
+    color: #ffcc00;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a32f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ffcc00;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Make the position relative for absolute positioning of icons */
+  }
+  
+  /* Social media icons */
+  .social-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #28a32f;
+  }
+  .social-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #28a32f;
+  }
+  
