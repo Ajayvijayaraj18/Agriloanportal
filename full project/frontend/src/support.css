@@ -1,0 +1,62 @@
+/* Support.css */
+
+.support-container {
+    max-width: 400px; /* Adjust the max-width to your preference */
+  margin: 70px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  height: 480px;
+  background-color: #ffffff8b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: scroll;
+
+    
+  }
+  
+  .support-container  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .support-container  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .support-container  label {
+    display: block;
+    margin-bottom: 5px;
+
+  }
+  
+  .support-container input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .support-container  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  bg {
+    color: black;
+  }

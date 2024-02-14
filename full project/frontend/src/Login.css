@@ -1,0 +1,54 @@
+#login-container {
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: auto;
+background-color: #f2e9e968;
+ 
+}
+.h2 {
+  color: black;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#login-container label {
+  margin-bottom: 5px;
+}
+
+#login-container input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #030202;
+  border-radius: 3px;
+}
+
+#login-container button {
+  background-color: #0b180b;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#login-container button:hover {
+  background-color: #f5d50a;
+}
+#b {
+  background-image: url('https://images.pexels.com/photos/1206593/pexels-photo-1206593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+}

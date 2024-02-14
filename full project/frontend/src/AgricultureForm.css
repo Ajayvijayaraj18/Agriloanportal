@@ -1,0 +1,67 @@
+/* AgricultureForm.css */
+
+body {
+    background-image: url('https://images.pexels.com/photos/2131784/pexels-photo-2131784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; /* Optional: This will make the background fixed */
+    background-size: cover; /* Optional: This will make the background cover the entire viewport */
+}
+
+  div[id='container'] {
+    max-width: 400px; /* Adjust the max-width to your preference */
+    margin: 5px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 480px;
+    overflow-y: scroll;
+    background-color: #0a25066b;;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  h1 {
+    color: #020803;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: grid;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f1d8d8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #28a32f;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1e7f25;
+  }
